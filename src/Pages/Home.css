@@ -1,0 +1,87 @@
+
+@keyframes scene-transition {
+    25% {
+      filter: brightness(100%);
+    }
+    100% {
+      filter: brightness(100%);
+      -webkit-mask-size: 1800%;
+      mask-size: 1800%;
+    }
+  }
+  
+  .scenes {
+    position: relative;
+    aspect-ratio: 2.4 / 1;
+    outline: 2px solid #ccc;
+    overflow: hidden; /* Prevent overflow */
+  }
+  
+  .scene-1,
+  .scene-2 {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+  }
+  
+  .scene-1 {
+    background-image:
+      radial-gradient(circle, #fff3 10%, transparent 20%),
+      url(/img_assets/hover-effect.jpg); /* Corrected URL path */
+  }
+  
+  .scene-2 {
+    background-image: url(Frontend-healthcare/img_assets/hover-effect-2.jpg); /* Corrected URL path */
+    filter: brightness(0%);
+    -webkit-mask-image: url(Frontend-healthcare/img_assets/jedi-order-svgrepo-com.svg); /* Fixed typo */
+    mask-image: url(Frontend-healthcare/img_assets/jedi-order-svgrepo-com.svg); /* Vendor prefix */
+    -webkit-mask-size: 10%;
+    mask-size: 10%; /* Vendor prefix */
+    -webkit-mask-position: center;
+    mask-position: center; /* Vendor prefix */
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat; /* Vendor prefix */
+    background-size: cover; /* Vendor prefix */
+  }
+  
+  .scenes:hover .scene-2,
+  .scenes:focus .scene-2 {
+    animation: scene-transition 4s cubic-bezier(1, 0, 1, 1) forwards;
+  }
+  
+  .scene-title {
+    position: absolute;
+    max-width: 90%; /* Adjusted max-width */
+    margin: min(40px, 4vw);
+    font-size: 1.25em;
+  }
+  
+  .scene-1 .scene-title {
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    text-align: left;
+  }
+  
+  .scene-2 .scene-title {
+    top: 0;
+    left: 0;
+    color: #fff;
+    text-align: left;
+  }
+  
+  /* everything else */
+  
+  @keyframes visual-transition {
+    25% {
+      background-color: #808080;
+    }
+    100% {
+      background-color: #808080;
+    }
+  }
+  
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
