@@ -5,7 +5,7 @@ function AboutUs() {
     <div className='flex flex-col w-full w-screen mx-auto'>
       <div className='flex flex-row justify-evenly items-center border-b-2 pb-4 transition duration-300 ease-in-out hover:bg-purple-100 hover:shadow-lg'>
         <div className='flex justify-center items-center'>
-          <img src='/img_assests/Sign-up-image.png' className='w-[30%] rounded-full' alt='Profile' />
+          <img src='/Sign-up-image.png' className='w-[30%] rounded-full' alt='Profile' />
         </div>
 
         <div>
@@ -31,13 +31,13 @@ function AboutUs() {
         </div>
         
         <div className='flex justify-center items-center'>
-          <img src='/img_assests/Sign-up-image.png' className='w-[30%] rounded-full' alt='Profile' />
+          <img src='/Sign-up-image.png' className='w-[30%] rounded-full' alt='Profile' />
         </div>
       </div>
 
       <div className='flex flex-row justify-evenly items-center border-b-2 pb-4 transition duration-300 ease-in-out hover:bg-purple-100 hover:shadow-lg'>
         <div className='flex justify-center items-center'>
-          <img src='/img_assests/Sign-up-image.png' className='w-[30%] rounded-full' alt='Profile' />
+          <img src='/Sign-up-image.png' className='w-[30%] rounded-full' alt='Profile' />
         </div>
 
         <div>
@@ -63,7 +63,7 @@ function AboutUs() {
         </div>
         
         <div className='flex justify-center items-center'>
-          <img src='/img_assests/Sign-up-image.png' className='w-[30%] rounded-full' alt='Profile' />
+          <img src='/Sign-up-image.png' className='w-[30%] rounded-full' alt='Profile' />
         </div>
       </div>
       {/* Repeat the structure for other team members */}

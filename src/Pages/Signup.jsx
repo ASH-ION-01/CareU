@@ -26,7 +26,7 @@ function Signup() {
         <div className="relative">
           <img
             className="absolute inset-0 w-full h-full object-cover"
-            src="/img_assests/Sign-up-image.png"
+            src="/Sign-up-image.png"
             alt="Signup Image"
           />
           <div className="relative bg-white bg-opacity-50 p-8">

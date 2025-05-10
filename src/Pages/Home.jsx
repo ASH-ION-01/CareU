@@ -9,7 +9,7 @@ function Home() {
       {/* Hero-section */}
       <section className='flex gap-y-2 justify-center relative'>
         {/* Background image */}
-        <div className='absolute inset-0 bg-cover bg-center z-0' style={{ backgroundImage: `url('/img_assests/home/9523314.jpg')` }}></div>
+        <div className='absolute inset-0 bg-cover bg-center z-0' style={{ backgroundImage: `url('/9523314.jpg')` }}></div>
 
         {/* Content */}
         <div className='flex w-screen h-screen relative z-10'>

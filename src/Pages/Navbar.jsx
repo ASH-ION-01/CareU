@@ -9,7 +9,7 @@ function Navbar() {
       <NavLink to='/' className='flex flex-row gap-x-2 justify-center items-center'>
 
         <h1 className='font-bold text-[20px]'>CareU</h1> 
-        <img src='img_assests/Site_img.png' width='25px'></img>
+        <img src='/Site_img.png' width='25px'></img>
       </NavLink>
 
       <div className='flex flex-row justify-between items-center gap-x-6'>

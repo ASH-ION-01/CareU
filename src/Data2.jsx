@@ -5,7 +5,7 @@ export const products = [
       price: 5.99,
       description: "Relieves minor aches and pains due to headache, toothache, backache, menstrual cramps, the common cold, muscular aches, and arthritis. Also reduces fever.",
       category: "pain relief",
-      image: "/img_assests/Shopping-img/id1.png",
+      image: "/id1.png",
       rating: {
         rate: 4.5,
         count: 150,
@@ -17,7 +17,7 @@ export const products = [
       price: 7.49,
       description: "Temporarily relieves minor aches and pains due to the common cold, headache, backache, minor pain of arthritis, toothache, muscular aches, and premenstrual and menstrual cramps. Also reduces fever.",
       category: "pain relief",
-      image: "/img_assests/Shopping-img/id2.png",
+      image: "/id2.png",
       rating: {
         rate: 4.3,
         count: 120,
@@ -29,7 +29,7 @@ export const products = [
       price: 12.99,
       description: "Provides 24-hour relief of sneezing, runny nose, itchy, watery eyes, and itching of the nose or throat due to hay fever or other upper respiratory allergies.",
       category: "allergy relief",
-      image: "/img_assests/Shopping-img/id3.png",
+      image: "/id3.png",
       rating: {
         rate: 4.7,
         count: 200,
@@ -41,7 +41,7 @@ export const products = [
       price: 3.99,
       description: "Temporarily relieves minor aches and pains due to headache, muscular aches, toothache, menstrual cramps, and reduces fever. Also used for the temporary relief of minor arthritis pain.",
       category: "pain relief",
-      image: "/img_assests/Shopping-img/id4.png",
+      image: "/id4.png",
       rating: {
         rate: 4.2,
         count: 180,
@@ -53,7 +53,7 @@ export const products = [
       price: 9.99,
       description: "Relieves symptoms of hay fever and other upper respiratory allergies such as runny nose, sneezing, itchy, watery eyes, and itching of the nose or throat.",
       category: "allergy relief",
-      image: "/img_assests/Shopping-img/id5.png",
+      image: "/id5.png",
       rating: {
         rate: 4.8,
         count: 220,
@@ -65,7 +65,7 @@ export const products = [
       price: 6.49,
       description: "Relieves symptoms of hay fever, allergies, and the common cold such as runny nose, sneezing, itching of the nose or throat, and itchy, watery eyes. Also used for the relief of itching and redness due to insect bites, poison ivy, or other skin conditions.",
       category: "allergy relief",
-      image: "/img_assests/Shopping-img/id6.png",
+      image: "/id6.png",
       rating: {
         rate: 4.4,
         count: 190,
@@ -77,7 +77,7 @@ export const products = [
       price: 15.99,
       description: "Treats frequent heartburn (occurs 2 or more days a week). Not intended for immediate relief of heartburn; this drug may take 1 to 4 days for full effect.",
       category: "digestive health",
-      image: "/img_assests/Shopping-img/id7.png",
+      image: "/id7.png",
       rating: {
         rate: 4.6,
         count: 210,
@@ -89,7 +89,7 @@ export const products = [
       price: 9.99,
       description: "Prevents and relieves heartburn associated with acid indigestion and sour stomach. Also prevents heartburn associated with acid indigestion and sour stomach brought on by certain foods and beverages.",
       category: "digestive health",
-      image: "/img_assests/Shopping-img/id8.png",
+      image: "/id8.png",
       rating: {
         rate: 4.2,
         count: 180,
@@ -101,7 +101,7 @@ export const products = [
       price: 8.49,
       description: "Relieves symptoms of gas frequently caused by air swallowing or certain foods or drinks. Also provides relief of pressure, bloating, and fullness commonly referred to as gas.",
       category: "digestive health",
-      image: "/img_assests/Shopping-img/id9.png",
+      image: "/id9.png",
       rating: {
         rate: 4.3,
         count: 160,
@@ -113,7 +113,7 @@ export const products = [
       price: 7.99,
       description: "Relieves travelers' diarrhea, diarrhea, and upset stomach due to overindulgence in food and drink, including heartburn, indigestion, nausea, gas, belching, and fullness.",
       category: "digestive health",
-      image: "/img_assests/Shopping-img/id10.png",
+      image: "/id10.png",
       rating: {
         rate: 4.5,
         count: 170,
@@ -125,7 +125,7 @@ export const products = [
       price: 6.99,
       description: "Controls symptoms of diarrhea, including Traveler's diarrhea.",
       category: "digestive health",
-      image: "/img_assests/Shopping-img/id11.png",
+      image: "/id11.png",
       rating: {
         rate: 4.4,
         count: 150,
@@ -137,7 +137,7 @@ export const products = [
       price: 15.99,
       description: "Treats frequent heartburn (occurs 2 or more days a week) and helps relieve symptoms of acid reflux disease (GERD). Also heals damage to the esophagus caused by acid reflux.",
       category: "digestive health",
-      image: "/img_assests/Shopping-img/id12.png",
+      image: "/id12.png",
       rating: {
         rate: 4.7,
         count: 220,
@@ -149,7 +149,7 @@ export const products = [
       price: 13.99,
       description: "Provides 24-hour relief of indoor and outdoor allergy symptoms including sneezing, runny nose, itching, watery eyes, and itching of the nose or throat.",
       category: "allergy relief",
-      image: "/img_assests/Shopping-img/id13.png",
+      image: "/id13.png",
       rating: {
         rate: 4.6,
         count: 180,
@@ -161,7 +161,7 @@ export const products = [
       price: 7.49,
       description: "Relieves symptoms of hay fever and upper respiratory allergies including runny nose, sneezing, itching of the nose or throat, and itchy, watery eyes. Also used for the relief of itching and redness due to insect bites, poison ivy, or other skin conditions.",
       category: "allergy relief",
-      image: "/img_assests/Shopping-img/id14.png",
+      image: "/id14.png",
       rating: {
         rate: 4.3,
         count: 200,
@@ -173,7 +173,7 @@ export const products = [
       price: 12.99,
       description: "Treats frequent heartburn (occurs 2 or more days a week). Not intended for immediate relief of heartburn; this drug may take 1 to 4 days for full effect.",
       category: "digestive health",
-      image: "/img_assests/Shopping-img/id15.png",
+      image: "/id15.png",
       rating: {
         rate: 4.7,
         count: 190,
@@ -185,7 +185,7 @@ export const products = [
       price: 11.49,
       description: "Treats symptoms of gastroesophageal reflux disease (GERD) and other conditions involving excessive stomach acid such as Zollinger-Ellison syndrome. Also used to promote healing of erosive esophagitis (damage to your esophagus caused by stomach acid).",
       category: "digestive health",
-      image: "/img_assests/Shopping-img/id16.png",
+      image: "/id16.png",
       rating: {
         rate: 4.4,
         count: 170,
@@ -197,7 +197,7 @@ export const products = [
       price: 14.99,
       description: "Prevents nausea and vomiting caused by cancer chemotherapy, radiation therapy, and surgery.",
       category: "digestive health",
-      image: "/img_assests/Shopping-img/id17.png",
+      image: "/id17.png",
       rating: {
         rate: 4.5,
         count: 160,
@@ -209,7 +209,7 @@ export const products = [
       price: 8.99,
       description: "Prevents heartburn associated with acid indigestion and sour stomach brought on by certain foods and beverages.",
       category: "digestive health",
-      image: "/img_assests/Shopping-img/id18.png",
+      image: "/id18.png",
       rating: {
         rate: 4.6,
         count: 180,
@@ -221,7 +221,7 @@ export const products = [
       price: 10.49,
       description: "Helps prevent symptoms of lactose intolerance such as gas, bloating, and diarrhea.",
       category: "digestive health",
-      image: "/img_assests/Shopping-img/id19.png",
+      image: "/id19.png",
       rating: {
         rate: 4.2,
         count: 200,
@@ -233,7 +233,7 @@ export const products = [
       price: 7.99,
       description: "Prevents and relieves heartburn associated with acid indigestion and sour stomach.",
       category: "digestive health",
-      image: "/img_assests/Shopping-img/id20.png",
+      image: "/id20.png",
       rating: {
         rate: 4.3,
         count: 190,

@@ -27,14 +27,14 @@
   .scene-1 {
     background-image:
       radial-gradient(circle, #fff3 10%, transparent 20%),
-      url(/img_assets/hover-effect.jpg); /* Corrected URL path */
+      url(../../public/hover-effect.jpg); /* Corrected URL path */
   }
   
   .scene-2 {
-    background-image: url(Frontend-healthcare/img_assets/hover-effect-2.jpg); /* Corrected URL path */
+    background-image: url(../../public/hover-effect-2.jpg); /* Corrected URL path */
     filter: brightness(0%);
-    -webkit-mask-image: url(Frontend-healthcare/img_assets/jedi-order-svgrepo-com.svg); /* Fixed typo */
-    mask-image: url(Frontend-healthcare/img_assets/jedi-order-svgrepo-com.svg); /* Vendor prefix */
+    -webkit-mask-image: url(../../public/jedi-order-svgrepo-com.svg); /* Fixed typo */
+    mask-image: url(../../public/jedi-order-svgrepo-com.svg); /* Vendor prefix */
     -webkit-mask-size: 10%;
     mask-size: 10%; /* Vendor prefix */
     -webkit-mask-position: center;
